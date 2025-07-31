@@ -45,6 +45,7 @@ where `SNR_i(t)` is the instantaneous signal-to-noise ratio of radar `i`.
 ---
 
 ## 📂 Repository Structure
+```
 📂 DualBand_Fusion
 ┣ 📜 GEF.m # Gain Envelope Fusion
 ┣ 📜 AEF.m # Adaptive Envelope Fusion
@@ -53,7 +54,7 @@ where `SNR_i(t)` is the instantaneous signal-to-noise ratio of radar `i`.
 ┣ 📜 beat_5_8GHz.mat # Example beat signal (5.8 GHz)
 ┣ 📜 beat_24GHz.mat # Example beat signal (24 GHz)
 ┗ 📜 README.md # Project documentation
-
+```
 
 ---
 
