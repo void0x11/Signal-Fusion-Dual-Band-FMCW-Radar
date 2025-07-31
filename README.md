@@ -20,27 +20,44 @@ after bandpass filtering and envelope/power extraction.
 ---
 
 ### 🔹 Envelope Fusion (GEF)
-![GEF Equation](pics/eq1.svg)  
-where `w1` and `w2` are fixed fusion weights.
+<p align="center">
+  <img src="pics/eq1.svg" width="300"/>
+</p>
+
+<p align="center"><i>where w1 and w2 are fixed fusion weights.</i></p>
 
 ---
 
 ### 🔹 Adaptive Envelope Fusion (AEF)
-![AEF Equation](pics/eq2.svg)  
-![AEF Weights](pics/eq3.svg)  
-where `Q_i(t)` is the segment energy of radar `i`.
+<p align="center">
+  <img src="pics/eq2.svg" width="320"/>
+</p>
+
+<p align="center">
+  <img src="pics/eq3.svg" width="250"/>
+</p>
+
+<p align="center"><i>where Q_i(t) is the segment energy of radar i.</i></p>
 
 ---
 
 ### 🔹 Power Fusion (GPF)
-![GPF Equation](pics/eq4.svg)
+<p align="center">
+  <img src="pics/eq4.svg" width="300"/>
+</p>
 
 ---
 
 ### 🔹 Adaptive Power Fusion (APF)
-![APF Equation](pics/eq5.svg)  
-![APF Weights](pics/eq6.svg)  
-where `SNR_i(t)` is the instantaneous signal-to-noise ratio of radar `i`.
+<p align="center">
+  <img src="pics/eq5.svg" width="320"/>
+</p>
+
+<p align="center">
+  <img src="pics/eq6.svg" width="250"/>
+</p>
+
+<p align="center"><i>where SNR_i(t) is the instantaneous signal-to-noise ratio of radar i.</i></p>
 
 ---
 
