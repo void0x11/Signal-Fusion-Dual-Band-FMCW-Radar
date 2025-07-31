@@ -14,35 +14,33 @@ The fusion is performed **at the signal level** (after dechirping, before FFT), 
 ## 📚 Theoretical Background
 
 ### 🔹 Fusion Stage
-The fusion is applied on the **beat signals** \( s_1(t) \) and \( s_2(t) \) from the 5.8 GHz and 24 GHz radars, after bandpass filtering and envelope/power extraction.
+The fusion is applied on the **beat signals** `s1(t)` and `s2(t)` from the 5.8 GHz and 24 GHz radars,  
+after bandpass filtering and envelope/power extraction.
+
+---
 
 ### 🔹 Envelope Fusion (GEF)
-\[
-E_{GEF}(t) = w_1 |s_1(t)| + w_2 |s_2(t)|
-\]
-where \( w_1, w_2 \) are fixed weights.
+![GEF Equation](pics/eq1.svg)  
+where `w1` and `w2` are fixed fusion weights.
+
+---
 
 ### 🔹 Adaptive Envelope Fusion (AEF)
-\[
-E_{AEF}(t) = w_1(t) |s_1(t)| + w_2(t) |s_2(t)|
-\]
-\[
-w_i(t) = \frac{Q_i(t)}{Q_1(t) + Q_2(t)}
-\]
-where \( Q_i(t) \) is the segment energy of radar \( i \).
+![AEF Equation](pics/eq2.svg)  
+![AEF Weights](pics/eq3.svg)  
+where `Q_i(t)` is the segment energy of radar `i`.
+
+---
 
 ### 🔹 Power Fusion (GPF)
-\[
-P_{GPF}(t) = w_1 |s_1(t)|^2 + w_2 |s_2(t)|^2
-\]
+![GPF Equation](pics/eq4.svg)
+
+---
 
 ### 🔹 Adaptive Power Fusion (APF)
-\[
-P_{APF}(t) = w_1(t) |s_1(t)|^2 + w_2(t) |s_2(t)|^2
-\]
-\[
-w_i(t) = \frac{SNR_i(t)}{SNR_1(t) + SNR_2(t)}
-\]
+![APF Equation](pics/eq5.svg)  
+![APF Weights](pics/eq6.svg)  
+where `SNR_i(t)` is the instantaneous signal-to-noise ratio of radar `i`.
 
 ---
 
