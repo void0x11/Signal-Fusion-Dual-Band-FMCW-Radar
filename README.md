@@ -3,6 +3,10 @@
 This repository contains MATLAB implementations of **dual-band radar fusion algorithms** developed for a low-cost FMCW radar system.  
 The fusion is performed **at the signal level** (after dechirping, before FFT), enabling improved target detection under low-SNR conditions.
 
+<p align="center">
+  <img src="pics/FMCW E.drawio.png"/>
+</p>
+
 ## 📌 Implemented Fusion Algorithms
 - **GEF:** Gain Envelope Fusion  
 - **AEF:** Adaptive Envelope Fusion  
@@ -16,10 +20,6 @@ The fusion is performed **at the signal level** (after dechirping, before FFT), 
 ### 🔹 Fusion Stage
 The fusion is applied on the **beat signals** `s1(t)` and `s2(t)` from the 5.8 GHz and 24 GHz radars,  
 after bandpass filtering and envelope/power extraction.
-
-<p align="center">
-  <img src="pics/Signal Processing Diagram.png"/>
-</p>
 
 ---
 
