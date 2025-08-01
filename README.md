@@ -24,7 +24,7 @@ after bandpass filtering and envelope/power extraction.
   <img src="pics/eq1.svg" width="300"/>
 </p>
 
-<p align="center"><i>where w1 and w2 are fixed fusion weights.</i></p>
+<p align="left"><i>where w1 and w2 are fixed fusion weights.</i></p>
 
 ---
 
@@ -37,7 +37,7 @@ after bandpass filtering and envelope/power extraction.
   <img src="pics/eq3.svg" width="250"/>
 </p>
 
-<p align="center"><i>where Q_i(t) is the segment energy of radar i.</i></p>
+<p align="left"><i>where Q_i(t) is the segment energy of radar i.</i></p>
 
 ---
 
@@ -57,7 +57,7 @@ after bandpass filtering and envelope/power extraction.
   <img src="pics/eq6.svg" width="250"/>
 </p>
 
-<p align="center"><i>where SNR_i(t) is the instantaneous signal-to-noise ratio of radar i.</i></p>
+<p align="left"><i>where SNR_i(t) is the instantaneous signal-to-noise ratio of radar i.</i></p>
 
 ---
 
