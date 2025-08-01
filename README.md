@@ -87,44 +87,52 @@ after bandpass filtering and envelope/power extraction.
 
 ## 🚀 How to Use
 
-### Requirements
-- MATLAB R2021 or later
+### ✅ Requirements
+- MATLAB R2020a or later
 - Signal Processing Toolbox
 
-### Steps
+### ✅ Steps to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/DualBandRadarFusion.git
+   git clone https://github.com/yourusername/Radar-Fusion.git
+   cd Signal-Fusion-Dual-Band-FMCW-Radar
    ```
+2. Open MATLAB and navigate to the project folder.
+3. Load the provided example beat signals (data/beat_5_8GHz.mat, data/beat_24GHz.mat).
+4. Run any of the fusion scripts:
+   ```
+   Run any of the fusion scripts:
+   ```
+
 The script will:
 
-Perform filtering, Hilbert transform, and fusion
+1. Loads radar beat signals.
+2. Normalizes and processes the signals.
+3. Applies the selected fusion algorithm.
+4. Estimates the fused beat frequency and range.
+5. Plots the input and fused signals.
 
-Apply FFT on the fused signal
+## 📊 Example Output
+The scripts generate:
+1. Time-domain plots of the individual and fused beat signals.
+2. FFT spectra of the fused signals.
+3. Plots of adaptive weights for AEF and APF.
+```
+fb_5.8GHz   = 37.354 MHz
+fb_24GHz    = 37.500 MHz
+fb_fused    = 37.420 MHz
+R_fused     = 74.8 m
+```
 
-Estimate beat frequency 
-𝑓
-𝑏
-f 
-b
-​
-  and range 
-𝑅
-R
-
-Display plots of signals and FFT spectrum
-
-📊 Example Output
-FFT of Fused Signal
-
-Segment-wise Adaptive Weights (for AEF/APF)
-
-Estimated Range Values
-
-📝 Citation
+## 📝 Citation
 If you use this code in your research, please cite:
+@article{YourName2025RadarFusion,
+  title={Non-Coherent Power and Envelope Fusion Algorithms for Low-Cost Dual-Band FMCW Radar},
+  author={Your Name},
+  journal={To be submitted},
+  year={2025}
+}
 
-📄 License
-MIT License – Free to use with attribution.
+## 📄 License
+This project is licensed under the MIT License – you are free to use, modify, and distribute it with proper attribution.
 ---
-
