@@ -17,6 +17,10 @@ The fusion is performed **at the signal level** (after dechirping, before FFT), 
 The fusion is applied on the **beat signals** `s1(t)` and `s2(t)` from the 5.8 GHz and 24 GHz radars,  
 after bandpass filtering and envelope/power extraction.
 
+<p align="center">
+  <img src="pics/Signal Processing Diagram.png"/>
+</p>
+
 ---
 
 ### 🔹 Envelope Fusion (GEF)
