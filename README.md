@@ -77,6 +77,11 @@ after bandpass filtering and envelope/power extraction.
 ├── data/                  # Example radar beat signal files
 │ ├── beat_5_8GHz.mat
 │ └── beat_24GHz.mat
+├── Radar modules/         # Radar models can be used to generate new test cases
+│ ├── R1_5_8_FMCW_Model.m
+│ └── R2_24_FMCW_Model.m
+├── test cases stats/      # contains all test cases results and stats
+│ ├── Radar Stats.xlsx
 ├── GEF_Fusion.m           # MATLAB script for Global Envelope Fusion
 ├── AEF_Fusion.m           # MATLAB script for Adaptive Envelope Fusion
 ├── GPF_Fusion.m           # MATLAB script for Global Power Fusion
