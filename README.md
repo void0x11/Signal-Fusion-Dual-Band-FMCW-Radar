@@ -67,16 +67,22 @@ after bandpass filtering and envelope/power extraction.
 
 ## 📂 Repository Structure
 ```
-📂 DualBand_Fusion
-┣ 📜 GEF.m # Gain Envelope Fusion
-┣ 📜 AEF.m # Adaptive Envelope Fusion
-┣ 📜 GPF.m # Gain Power Fusion
-┣ 📜 APF.m # Adaptive Power Fusion
-┣ 📜 beat_5_8GHz.mat # Example beat signal (5.8 GHz)
-┣ 📜 beat_24GHz.mat # Example beat signal (24 GHz)
-┗ 📜 README.md # Project documentation
+├── pics/ # Equation images for README
+│ ├── eq1.svg
+│ ├── eq2.svg
+│ ├── eq3.svg
+│ ├── eq4.svg
+│ ├── eq5.svg
+│ └── eq6.svg
+├── data/ # Example radar beat signal files
+│ ├── beat_5_8GHz.mat
+│ └── beat_24GHz.mat
+├── GEF_Fusion.m # MATLAB script for Global Envelope Fusion
+├── AEF_Fusion.m # MATLAB script for Adaptive Envelope Fusion
+├── GPF_Fusion.m # MATLAB script for Global Power Fusion
+├── APF_Fusion.m # MATLAB script for Adaptive Power Fusion
+└── README.md # Project documentation
 ```
-
 ---
 
 ## 🚀 How to Use
