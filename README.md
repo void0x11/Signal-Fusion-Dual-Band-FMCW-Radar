@@ -81,7 +81,7 @@ after bandpass filtering and envelope/power extraction.
 ├── AEF_Fusion.m           # MATLAB script for Adaptive Envelope Fusion
 ├── GPF_Fusion.m           # MATLAB script for Global Power Fusion
 ├── APF_Fusion.m           # MATLAB script for Adaptive Power Fusion
-└── README.md # Project documentation
+└── README.md              # Project documentation
 ```
 ---
 
